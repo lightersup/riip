@@ -43,6 +43,7 @@ Since this is installed with Makefile, you can easily install it in two easy ste
 1. Clone this repository with:
     ```bash
     git clone https://github.com/nvttles/riip
+    cd riip
     ```
 2. Run a 'make install' command:
     ```bash
