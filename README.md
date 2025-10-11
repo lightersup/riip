@@ -5,7 +5,6 @@
 
 A remake of [@aatxe]("https://github.com/aatxe") 'RIP' program. Installed via Makefile.
 
----
 ## Examples
 With this program you can create tombstones for all of your friends. You can even add epithets to it.
 ```bash
