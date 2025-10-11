@@ -1,6 +1,6 @@
 # riip
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/nvttles/riip/workflows.yml)
-![GitHub License](https://img.shields.io/github/license/nvttles/riip)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/nvttles/riip/manual.yml)
+![GitHub top language](https://img.shields.io/github/languages/top/nvttles/riip)
 
 
 A remake of [@aatxe]("https://github.com/aatxe") 'RIP' program. Installed via Makefile.
