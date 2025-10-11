@@ -1,3 +1,4 @@
+use std::env::args;
 use std::io;
 
 fn print_it (ep: &str) {
@@ -36,6 +37,17 @@ fn print_it (ep: &str) {
 }
 
 fn main () {
+
+    let params: Vec<String> = args().collect();
+
+    let version = "0.1.0";
+    if args().len() >= 2 {
+        if params[1].to_string() == "-v" || params[1].to_string() == "--version" {
+            println!("riip: {}", version);
+            return;
+        }
+    }
+
     println!("Enter your epithet:");
 
     let mut epithet = String::new();
@@ -47,4 +59,5 @@ fn main () {
     let epithet = epithet.trim();
 
     print_it(epithet);
+    
 }
