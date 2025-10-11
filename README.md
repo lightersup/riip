@@ -1,12 +1,16 @@
 # riip
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/nvttles/riip/workflows.yml)
+![GitHub License](https://img.shields.io/github/license/nvttles/riip)
+
 
 A remake of [@aatxe]("https://github.com/aatxe") 'RIP' program. Installed via Makefile.
 
 ---
-With this program you can create tombstones for all of your friends.
+## Examples
+With this program you can create tombstones for all of your friends. You can even add epithets to it.
 ```bash
 serve $ riip
-enter your epithet:
+Enter your epithet:
 leo
 
                                  _____  _____
@@ -33,3 +37,15 @@ leo
                          .%%%@@@|%    |    % @@@%%@%%%%
                     _.%%%%%%@@@@@@%%_/%\_%@@%%@@@@@@@%%%%%%
 ```
+## Getting Started
+Since this is installed with Makefile, you can easily install it in two easy steps.
+
+1. Clone this repository with:
+    ```bash
+    git clone https://github.com/nvttles/riip
+    ```
+2. Run a 'make install' command:
+    ```bash
+    make install
+    ```
+If the second step runs successfully, you have just installed riip, and can run it from anywhere with the riip command.
