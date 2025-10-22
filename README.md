@@ -1,4 +1,4 @@
-# riip
+# `riip`
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/nvttles/riip/workflows/manual.yml)
 ![GitHub top language](https://img.shields.io/github/languages/top/nvttles/riip)
 
